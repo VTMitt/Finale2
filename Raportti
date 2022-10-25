@@ -1,0 +1,83 @@
+Raportti Project 2:Statistic portal
+Tekijä: Venne Tanskanen
+Työssä on tehty tilastoja esittävä sivusto. Koodissa tietoa haetaan API kutsuja käyttäen tilastokeskuksesta. 
+Suomen kartan olen saanut lisäämällä Viikon 5 tehtävissä saadun sivuston, ja kutsumalla sen samalla tavalla. 
+Koodi on kirjoitettu Codesandbox sivustolla. Työssä on käytetty Leaflet ja Frappe charts lisäyksiä, 
+joista toinen on ladattu Sandboxin dependencies osasta ja toinen on lisätty tiedostoina.
+Työssä usein oli ongelmana datan huonohko muoto. Varsinkin poliittisen datan saaminen hyvään muotoon oli haastavaa. 
+Muu data oli paljon selvemmässä järjestyksessä, ainakin kun dataa lähti läpi käymään jonkin aikaa.
+Pääosin käytin työssä kurssimateriaalia, mutta apua etsin myös netistä, 
+pääosin tarkastamalla onko tiettyjä valmiita käskyjä olemassa. 
+
+Tässä pisteytyksestä:
+
+Well written report 
+2
+Raportti on vaaditun pitkä ja kuvaileva. 
+
+No report 
+0
+Raportti on kirjoitettu
+
+Application is responsive and can be used on both desktop and mobile environment 
+3
+Skaalautuu pienelle ja isommallekkin ruudulle aika hyvin, kartan sain varsin hyvin. Chartit skaalautuvat 
+hyvin, mutta niiden ilmoittamat tiedot, kun hiirtä pitää niiden yllä ainut ei ok. Lisäysten tulisi toimia.
+
+Application is not responsive 
+0
+Ok
+
+Application work on Firefox, Safari, Edge and Chrome 
+2
+Kaikkien lisäysten pitäisi toimia selaimilla
+
+Software does not work 
+0
+Ohjelma ei kaadu ja data on oikein.
+
+CSS, JavaScript and HTML are all in the same file 
+0
+Ovat eri tiedostoissa.
+
+Inappropriate content, including hate speech -related memes and other trash 
+0
+Kumpikaan raportti tai ohjelmisto ei sisällä tällaista.
+
+Drag’n’drop new data to charts/maps 
+0
+Tästä alempana omassa tehtävässä
+
+The application show relevant data on a map and user has change to change the data 
+3
+Käyttäjä näkee kuntavaalien kartan eri vuosilta tai väkiluvun.
+
+The application show relevant data on a chart and user has chance to change the data 
+3
+Käyttäjä voi kirjoittaa kunnan nimen ja nähdä miten työllisyystaso ja tulotaso on muuttunut kunnassa.
+
+User is able to switch between different layers of data on map 
+2
+Voi vaihtaa vaihtamalla vuosilukua.
+
+By clicking the map user has an option to get to additional charts covering that area 
+4
+Kuntaa klikatessa näyttää kunkin puolueen paikkamäärät kullakin vuodella.
+
+There are more than two items of data available (e.g. elections data, employment rate and number of residents) – this means that there are two API calls made
+4
+Ohjelmisto näyttää äänestysdataa, väkilukudataa, tulo dataa ja työllisyysdataa dataa.
+
+Able to download the visualization as a PNG (or SVG) image 
+2
+Voi ladata Frappe chartin SVG kuvana
+
+Oma: Toggle nappi: Eli kun nappia painaa se vaihtaa kartan datasetin väkilukuun. Tämän kuului olla osa 
+drag’n’drop featurea, mutta se jäi kesken. 
+Pyydettyjä pisteitä: 2.
+
+Yhteensä pyydettyjä pisteitä: 27
+
+Koodia on yhteensä vähän päälle 2000 riviä, mutta suuri osa tästä on API kutsujen query muuttujia. 
+Toisaalta jälkeenpäin katsottuna osaa aikaisemmin kirjoitetusta koodista olisi voinut käyttää uudelleen. 
+API kutsutkin olisi varmaan saanut kirjoitettua paremmin, ettei niitä tarvitsisi useasti hakemaan uudestaan, mutta tässä kohtaa tuli paljon erroreita, joten käytin.
